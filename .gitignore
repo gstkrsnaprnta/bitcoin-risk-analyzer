@@ -1,0 +1,22 @@
+# Backend
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+# Data & Models (if too large or unneeded for versioning)
+# *.pkl
+# *.csv
+# If you want to commit them, comment out the lines above.
+backend/uvicorn.log
+
+# Frontend Next.js (already in frontend/.gitignore, but good to ensure root covers if needed)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# IDE/OS files
+.DS_Store
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
