@@ -1,0 +1,17 @@
+{
+  "threshold": 0.59,
+  "feature_cols": [
+    "Daily_Return",
+    "Volume",
+    "Dist_to_MA14",
+    "fng_score",
+    "news_count",
+    "Sentiment_x_Volatility",
+    "Fear_Pressure",
+    "MACD_hist_norm",
+    "BB_Width",
+    "BB_Position",
+    "HL_Range",
+    "Volume_MA_Ratio"
+  ]
+}
